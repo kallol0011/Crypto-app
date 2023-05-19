@@ -8,10 +8,11 @@ import Exchanges from "./components/Exchanges";
 import Home from "./components/Home"
 import CoinDetails from "./components/CoinDetails"
 import Footer from './components/Footer';
+import HomePage from './HomeComponent/HomePage';
 
 function App() {
   return ( 
-    <div className="App">
+    <div className="App"  >
       
        <Router>
         <Header/>
@@ -23,7 +24,7 @@ function App() {
               <Route path="/coins/:id" element={<CoinDetails/>} />
 
           </Routes>
-          <Footer/>
+          {/* <Footer/> */}
 
        </Router>
 

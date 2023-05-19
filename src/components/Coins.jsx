@@ -55,6 +55,7 @@ const Coins = () => {
           <HStack wrap={"wrap"} justifyContent={"space-evenly"}>
             {coins.map((i) => (
               <CoinCard
+                
                 id={i.id}
                 key={i.id}
                 name={i.name}
